@@ -15,7 +15,8 @@ window.addEventListener("load", async () => {
   
   //const router = new Navigo("/", { hash: true });
   const router = new Navigo("/");
-  //Not especially nice, BUT MEANT to simplify things. Make the router global so it can be accessed from all js-files
+  //Not especially nice, BUT MEANT to simplify things. 
+  //Make the router global so it can be accessed from all js-files
   window.router = router
 
   router
