@@ -32,7 +32,7 @@ export function initAndGetPage(content_id) {
   const contentId = content_id
   const content = document.getElementById(contentId)
   content.innerHTML = html;
-  usersFromServer=[]
+  //usersFromServer=[]  //This will reload data, each time the pages is visited
   runJavaScript()
 }
 
